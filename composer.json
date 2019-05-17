@@ -1,0 +1,30 @@
+{
+    "name": "bluekachina/langui",
+    "description": "Provides a User Interface Allowing Users To Input Values That Will Be Used For Localization",
+    "keywords": ["L10N","localisation","laravel", "UI"],
+    "homepage": "https://github.com/Blue-Kachina/langui",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Leering",
+            "email": "mleering@coresolutions.ca",
+            "homepage": "http://coresolutions.ca",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "bluekachina\\langui\\langui"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "bluekachina\\langui\\": "src/"
+        }
+    }
+}
