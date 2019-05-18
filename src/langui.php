@@ -104,7 +104,7 @@ class langui
         //Make sure the path we're using has a trailing \*
         $trailing_wildcard = "\\*";
 
-        file_put_contents('c:/temp/phplog.txt', var_export($path, true));
+        file_put_contents('c:/temp/langui-debug.txt', $path);
 
         $path = substr($path,(strlen($trailing_wildcard) * -1)) == $trailing_wildcard ? $path : $path . $trailing_wildcard;
 
